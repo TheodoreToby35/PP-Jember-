@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+Body {  
+  font-family: 'Inter';  
+  background-color: #394B6C;  
+  color: #C4C4C4;
+}  
+button {   
+	   background-color: #C4C4C4;  
+	   float: right;
+	   width: 30%; 
+	   height: 50px; 
+		color: #394B6C;   
+		padding: 15px;
+		border-radius: 25px;   
+		margin: 10px 0px;   
+		border: none;   
+		cursor: pointer;   
+		 }   
+ label {   
+	color: #FFFFFF;
+	float: left;
+	font-size: 30px;
+	}   
+ input[type=text], input[type=password] {   
+		width: 100%;   
+		margin: 8px 0;  
+		padding: 12px 20px;  
+		display: inline-block;   
+		border: 2px solid #C4C4C4;   
+		box-sizing: border-box;  
+		font-family: Inter;
+		src: url(sansation_light.woff);
+		background: #C4C4C4;
+		border-radius: 10px;
+
+	}  
+ button:hover {   
+		opacity: 0.7; 
+		border-radius: 25px;  
+	}   
+  .cancelbtn {   
+		width: auto;   
+		padding: 10px 18px;  
+		margin: 10px 5px;  
+		border-radius: 25px;
+	}   
+
+.dropbtn {
+	background-color: #C4C4C4;
+	color: #394B6C;
+	width: 250px;
+	height: 50px;
+	left: 808px;
+	top: 599px;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	float: left;
+	}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #394B6C;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
+
+.dropdown-content a {
+	color: #C4C4C4;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	width: 283px;
+	height: 20px;
+	left: 808px;
+	top: 599px;
+	padding: 16px;
+	font-size: 16px;
+	border-radius: 25px;   
+	}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	color: #394B6C;
+	width: 283px;
+	height: 20px;
+	left: 808px;
+	top: 599px;
+	padding: 16px;
+	font-size: 16px;
+	border-radius: 25px;   
+
+}
+
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	}
+
+.dropdown:hover .dropbtn {
+	background-color: #C4C4C4;
+	}
+
+.split {
+height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.left {
+left: 0;
+background-image: url('https://imamsyafiijember.com/wp-content/uploads/2020/07/GEDUNG-FEATURE-1024x448.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.right {
+right: 0;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+h2 {
+	font-family: 'Inter';
+	font-size: 60px;
+	color: #C4C4C4 ;
+	font-weight: 900;
+	-webkit-text-stroke-width: 1px;   
+	-webkit-text-stroke-color: #394B6C; 
+}
