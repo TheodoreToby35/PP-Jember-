@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+Body {  
+  font-family: 'Inter';  
+  background-color: #E5E5E5;  
+  color: #C4C4C4;
+}  
+
+.sidenav {
+  height: 180px; 
+  width: 20%; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #D0E8F2; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.Logo {
+  position: absolute;
+  width: 147px;
+  height: 135px;
+  left: 8px;
+  top: 18px;
+}
+
+.Gambar {
+  position: absolute;
+  width: 140px;
+  height: 14px;
+  left: 8px;
+  top: 18px;
+}
+
+.Judul {
+  position: absolute;
+  width: 195px;
+  height: 103px;
+  left: 165px;
+  top: 39px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #352E5B;
+
+}
+
+.Topbar {
+  overflow: hidden;
+  background-color: #79A3B1;
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  top: 0px;
+}
+
+
+.button1 {
+  position: absolute;
+  width: 311px;
+  height: 56px;
+  left: 33px;
+  top: 224px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button2 {
+  position: absolute;
+  width: 311px;
+  height: 56px;
+  left: 33px;
+  top: 315px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button3 {
+  position: absolute;
+  width: 311px;
+  height: 56px;
+  left: 33px;
+  top: 406px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button4 {
+  position: absolute;
+  width: 311px;
+  height: 56px;
+  left: 33px;
+  top: 497px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button5 {
+  position: absolute;
+  width: 311px;
+  height: 56px;
+  left: 33px;
+  top: 588px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button6 {
+  position: absolute;
+  width: 311px;
+  height: 56px;
+  left: 33px;
+  top: 679px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button1:hover {
+  background-color: #C4C4C4;
+  color: #352E5B;
+}
+
+.button2:hover {
+  background-color: #C4C4C4;
+  color: #352E5B;
+}
+
+.button3:hover {
+  background-color: #C4C4C4;
+  color: #352E5B;
+}
+
+.button4:hover {
+  background-color: #C4C4C4;
+  color: #352E5B; 
+}
+
+.button5:hover {
+  background-color: #C4C4C4;
+  color: #352E5B;
+}
+  
+.button6:hover {
+  background-color: #C4C4C4;
+  color: #352E5B;
+}
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+.fotouser {
+  position: Fixed;
+  width: 80px;
+  height: 80px;
+  Right: 20px;
+  top: 21px;
+  border: none;
+  color: #FFFFFF;
+  float: left;
+  background: url(image.png);
+  background-color: #352E5B;
+  border-radius: 50px;
+}
+
+.datauser {
+  position: absolute;
+  width: 138px;
+  height: 62px;
+  right: 300px;
+  top: 30px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.buttondatapegawai {
+    position: absolute;
+    top: 550px;
+    left: 400px;
+    border: none;
+    padding: 60px 32px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 20px;
+    font-weight: 800;
+  }
+
+.buttonnotifikasi {
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    border: none;
+    padding: 60px 32px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 20px;
+    font-weight: 800;
+  }
+
+.buttonlaporanuang {
+    position: absolute;
+    top: 550px;
+    left: 1200px;
+    border: none;
+    padding: 60px 32px;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 20px;
+    font-weight: 800;
+  }
+
+.randomtext {
+    position:absolute;
+    top: 200px;
+    left: 600px ;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    
+
+}
