@@ -3,7 +3,7 @@
 Body {  
   font-family: 'Inter';  
   background-color: #E5E5E5;  
-  color: #C4C4C4;
+  color: black;
 }  
 
 .sidenav {
@@ -476,4 +476,34 @@ line-height: 39px;
 text-transform: uppercase;
 
 color: #000000;
+}
+
+.heading1 {
+  position: absolute;
+width: 730px;
+height: 71px;
+left: 700px;
+top: 206px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 77px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.datainput {
+  position: absolute;
+  width: 730px;
+  height: 71px;
+  left: 700px;
+  top: 500px;
+  size: 40px;
+  color: #000000;
+}
+
+.table {
+  width: 300px;
 }
