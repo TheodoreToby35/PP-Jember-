@@ -2,7 +2,7 @@
     <head> 
 		<title> Input Laporan Keuangan OP </title>
 		<link rel="icon" href="https://imamsyafiijember.com/wp-content/uploads/2020/07/logo-imam-syafi-2i.png">
-		<link rel="stylesheet" href="Operator_Input_LaporanKeuangan CSS.css">
+		<link rel="stylesheet" href="CSSOperator_Input_LaporanKeuangan.css">
 		<!--                        ^ diisi nama CSS
 		buat style dulu baru nanti semuanya di copy ke CSS -->
 
@@ -44,29 +44,30 @@
               <div class="heading1">
                 <h1>INPUT LAPORAN KEUANGAN</h1>
               </div>
-
-              <div class="datainput">
-                <form class="inputdatalaporan">
-					Instansi
-					<select name="Instansi">
-						<option>PAUD</option>
-						<option>SD</option>
-						<option>SMP</option>
-						<option>MAHAD</option>
-						<option>STDIIS</option>
-						<option>Aset Lainnya</option>
-					</select>
-					<br/>
-					Nama File
-					<input type="text" name="Nama File">
-					<br/>
-					Keterangan File
-					<input type="text" name="Keterangan File">
-					<br/>
-					Tanggal Input
-					<input type="date">
-				</form>
-              </div>
+		</div>
+		<div class="listinputdata">
+			<form class="inputdata">
+				<label for="instansi">Instansi</label>
+				<select name="instansi">
+					<option>PAUD</option>
+					<option>SD</option>
+					<option>SMP</option>
+					<option>MAHAD</option>
+					<option>STDIIS</option>
+					<option>Aset Lainnya</option>
+				</select>
+				<br/>
+				<label for="Namafile">Nama File</label>
+				<input type="text" name="Nama File">
+				<br/>
+				<label for="keteranganfile">Keterangan File</label>
+				<input type="text" name="Keterangan File">
+				<br/>
+				<label for="tanggalnput">Tanggal Input</label>
+				<input type="date">
+				<br/>
+				<input type="submit" value="Submit">
+			</form>
 		</div>
 	</body>
 </html>
