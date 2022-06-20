@@ -3,7 +3,7 @@
 Body {  
   font-family: 'Inter';  
   background-color: #E5E5E5;  
-  color: #C4C4C4;
+  color: black;
 }  
 
 .sidenav {
@@ -478,116 +478,59 @@ text-transform: uppercase;
 color: #000000;
 }
 
-.isi{
-    position: absolute;
-    width: 1000px;
-    height: 71px;
-    left: 560px;
-    top: 237px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 77px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    }
-
-.listinstansi1 {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    left: 750px;
-    top: 419px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 31px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color:  #C4C4C4;
-    border-radius: 20px;
+.heading1 {
+  position: absolute;
+width: 730px;
+height: 71px;
+left: 700px;
+top: 206px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 77px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
 }
 
-.listinstansi2 {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    left: 1000px;
-    top: 419px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 31px;
-    text-transform: uppercase;
-    background-color: #C4C4C4;
-    border-radius: 20px;
+.datainput {
+  position: absolute;
+  width: 730px;
+  height: 71px;
+  left: 700px;
+  top: 500px;
+  size: 40px;
+  color: #000000;
 }
 
-.listinstansi3 {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    left: 1250px;
-    top: 419px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 31px;
-    text-transform: uppercase;
-    background-color: #C4C4C4;
-    border-radius: 20px;
+.listinputdata {
+  position: absolute;
+  left: 1250px;
+  top: 600px;
+  transform: translate(-50%,-50%);
+  padding: 20px 25px;
+  width: 1000px;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.listinstansi4 {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    left: 750px;
-    top: 683px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 31px;
-    text-transform: uppercase;
-    background-color: #C4C4C4;
-    border-radius: 20px;
+.listinputdata input{
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #C4C4C4;
 }
 
-.listinstansi5 {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    left: 1000px;
-    top: 683px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 31px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    background-color: #C4C4C4;
-}
-
-.listinstasni6 {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    left: 1250px;
-    top: 683px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 26px;
-    line-height: 31px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #C4C4C4;
-    border-radius: 20px;
+.listinputdata select{
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #C4C4C4;
 }
