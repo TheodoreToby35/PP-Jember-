@@ -275,17 +275,17 @@ Body {
 }
 
 .h1Nama {
-  position: absolute;
-  width: 400px;
-  height: 70px;
-  left: 25%;
-  top: 320px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    left: 25%;
+    top: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
   color: #000000;
 }
 
@@ -417,3 +417,144 @@ Body {
     color: #352E5B;
 }
 
+.Target{
+  position: absolute;
+  top: 37%;
+  left: 25%;
+  width: 70%;
+  height: 35%;
+}
+
+.h1Target{
+  position: absolute;
+  width: 133px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.h1KTarget{
+  position: absolute;
+  height: 34px;
+  right: 20%;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.PenghargaanDanPelanggaran{
+  position: absolute;
+  top: 72.5%;
+  left: 25%;
+  width: 70%;
+  height: 25%;
+}
+
+.h1Penghargaaan{
+  position: absolute;
+  height: 39px;
+  left: 15px;
+  top: -10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  background-color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #000000;
+}
+
+.tar{
+  position: fixed;
+  left: 25%;
+  top: 45%;
+  width: 70%;
+  height:25%;
+}
+
+thead, tbody { 
+  display: block; 
+  line-height: 15px;
+}
+
+tbody {
+  height: 100%;       
+  width: 100%;
+  overflow-y: auto;    
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #E5E5E5
+}
+
+th[scope="colnama"] {
+  background-color: #C2DFEB;
+  color: #000000;
+  position: sticky;
+  top: 0%;
+}
+
+th[scope="colnop"] {
+  background-color: #C2DFEB;
+  color: #000000;
+  position: sticky;
+  top: 0%;
+}
+
+th[scope="coljb"] {
+  background-color: #C2DFEB;
+  color: #000000;
+  position: sticky;
+  top: 0%;
+}
+
+.peng{
+  position: fixed;
+  left: 25%;
+  top: 78%;
+  width: 70%;
+  height:20%;
+}
