@@ -7,8 +7,9 @@
         {
             "type": "pwa-msedge",
             "request": "launch",
-            "name": "Open Pemilik_Performa Pegawai.html",
-            "file": "d:\\XAMPP\\htdocs\\PP-Jember-\\Pemilik_Performa Pegawai.html"
+            "name": "Open Pemilik_DetailGajiPegawai.html",
+            "file": "d:\\XAMPP\\htdocs\\PP-Jember-\\Pemilik_DetailGajiPegawai.html"
         }
+        
     ]
 }
