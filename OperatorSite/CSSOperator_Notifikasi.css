@@ -7,7 +7,7 @@ Body {
 }  
 
 .sidenav {
-  height: 180px; 
+  height: 100%; 
   width: 20%; 
   position: fixed; 
   z-index: 1; 
@@ -61,7 +61,6 @@ Body {
   height: 200px;
   top: 0px;
 }
-
 
 .button1 {
   position: absolute;
@@ -275,119 +274,236 @@ Body {
   color: #FFFFFF;
 }
 
-.fitur {
-  position: fixed;
-  top: 350px;
-  left: 350px;
-  padding: 30px 30px;
-  font-size: 24px;
-  color: black;
-}
-
-#btnins1 {
+.Paudpemilik { 
   position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 200px;
-  top: 150px;
+  width: 250px;
+  height: 250px;
+  right: 63%;
+  top: 41%;
+  background: #C4C4C4;
+  border-radius: 30px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
 }
-#btnins2 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 500px;
-  top: 150px;
-  font-family: 'Inter';
+
+.Paudpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.SDpemilik {
+position: absolute;
+width: 250px;
+height: 250px;
+right: 47%;
+top: 41%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
 }
-#btnins3 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 800px;
-  top: 150px;
-  font-family: 'Inter';
+
+.SDpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.SMPpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 31%;
+top: 41%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
 }
 
-/* .buttondatapegawai {
+.SMPpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.Mahadpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 15%;
+top: 41%;
+
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.Mahadpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.STDIISPemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 63%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.STDIISpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.AsetLainyapemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 47%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.AsetLainyapemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.LaporanKeuanganpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 31%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.LaporanKeuanganpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.Notifikasipemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 15%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.Notifikasipemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.JudulNotif{
     position: absolute;
-    top: 550px;
-    left: 400px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
+    left: 25%;
+    top: 20%;
+    width: 75%;
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 800;
-  }
+    font-size: 40px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: #000000;
+}
 
-.buttonnotifikasi {
+.Clear{
     position: absolute;
-    top: 550px;
-    left: 800px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
+    right: 10%;
+    top: 40%;
+    width: 250px;
+    height: 50px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
 
-.buttonlaporanuang {
+.RumahNotif{
     position: absolute;
-    top: 550px;
-    left: 1200px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  } */
+    top: 40%;
+    left: 25%;
+    width: 70%;
+    height: 60%;
+}
 
-.randomtext {
-    position:absolute;
-    top: 200px;
-    left: 600px ;
-    text-align: center;
-    color: black;
-    font-size: 50px;
-    
+.NotifRow1{
+    height: 145px;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+}
 
+.IsiNotifikasi{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.Chek{
+    position: static;
+    right: 10%;
+    top: 100%;
 }

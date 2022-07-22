@@ -7,7 +7,7 @@ Body {
 }  
 
 .sidenav {
-  height: 180px; 
+  height: 100%; 
   width: 20%; 
   position: fixed; 
   z-index: 1; 
@@ -61,7 +61,6 @@ Body {
   height: 200px;
   top: 0px;
 }
-
 
 .button1 {
   position: absolute;
@@ -275,119 +274,330 @@ Body {
   color: #FFFFFF;
 }
 
-.fitur {
-  position: fixed;
-  top: 350px;
-  left: 350px;
-  padding: 30px 30px;
-  font-size: 24px;
-  color: black;
+.h1Nama {
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    left: 25%;
+    top: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+  color: #000000;
 }
 
-#btnins1 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 200px;
-  top: 150px;
+
+
+.subjudul{
+    position: absolute;
+    width: 80.4%;
+    height: 110px;
+    left: 375px;
+    top: 221px;
+    overflow-x: hidden;
+    background: #98DED9;
+}
+
+.button9{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    top: 10px;
+    left: 20px;
+    border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
   border-radius: 20px;
 }
-#btnins2 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 500px;
-  top: 150px;
+
+.button10{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    top: 10px;
+    left: 390px;
+    border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
   border-radius: 20px;
 }
-#btnins3 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 800px;
-  top: 150px;
+
+.button11{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    top: 10px;
+    left: 760px;
+    border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
   border-radius: 20px;
 }
 
-/* .buttondatapegawai {
+.button12{
     position: absolute;
-    top: 550px;
-    left: 400px;
+    width: 350px;
+    height: 80px;
+    top: 10px;
+    left: 1130px;
     border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
 
-.buttonnotifikasi {
-    position: absolute;
-    top: 550px;
-    left: 800px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
+.button9:hover {
+    background-color: #C4C4C4;
+    color: #352E5B;
+}
 
-.buttonlaporanuang {
-    position: absolute;
-    top: 550px;
-    left: 1200px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  } */
+.button10:hover {
+    background-color: #C4C4C4;
+    color: #352E5B;  
+}
+  
+.button11:hover {
+    background-color: #C4C4C4;
+    color: #352E5B;
+}
+  
+.button12:hover {
+    background-color: #C4C4C4;
+    color: #352E5B;
+}
 
-.randomtext {
-    position:absolute;
+.pp {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    top: 215px;
+    left: 460px;
+}
+
+#pppgw {
+    width: 100px;
+    height: 100px;
+}
+
+.txtket {
+    position: fixed;
     top: 200px;
-    left: 600px ;
-    text-align: center;
+    left: 600px;
     color: black;
-    font-size: 50px;
-    
-
+    font-size: 30px;
+    height: 300px;
+    font-weight: 600;
+    line-break: loose;
 }
+
+#nopgw {
+    margin-left: 100px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 300px;
+    padding: 8px;
+    font-size:  20px;
+}
+#nama {
+    margin-left: 186px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 300px;
+    padding: 8px;
+    font-size:  20px;
+}
+
+.Target{
+  position: fixed;
+  top: 37%;
+  left: 25%;
+  width: 70%;
+  height: 35%;
+}
+
+.h1Target{
+  position: absolute;
+  width: 133px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.h1KTarget{
+  position: absolute;
+  height: 34px;
+  right: 20%;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.PenghargaanDanPelanggaran{
+  position: fixed;
+  top: 72.5%;
+  left: 25%;
+  width: 70%;
+  height: 25%;
+}
+
+.h1Penghargaaan{
+  position: absolute;
+  height: 39px;
+  left: 15px;
+  top: -10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  background-color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #000000;
+}
+
+.tar{
+  position: fixed;
+  left: 25%;
+  top: 45%;
+  width: 70%;
+  height:25%;
+}
+
+thead, tbody { 
+  display: block; 
+  line-height: 15px;
+}
+
+tbody {
+  height: 100%;       
+  width: 100%;
+  overflow-y: auto;    
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #E5E5E5
+}
+
+th[scope="colnama"] {
+  background-color: #C2DFEB;
+  color: #000000;
+  position: sticky;
+  top: 0%;
+}
+
+th[scope="colnop"] {
+  background-color: #C2DFEB;
+  color: #000000;
+  position: sticky;
+  top: 0%;
+}
+
+th[scope="coljb"] {
+  background-color: #C2DFEB;
+  color: #000000;
+  position: sticky;
+  top: 0%;
+}
+
+.peng{
+  position: fixed;
+  left: 25%;
+  top: 78%;
+  width: 70%;
+  height:20%;
+}
+

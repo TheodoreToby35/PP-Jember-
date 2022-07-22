@@ -3,7 +3,7 @@
 Body {  
   font-family: 'Inter';  
   background-color: #E5E5E5;  
-  color: black;
+  color: #C4C4C4;
 }  
 
 .sidenav {
@@ -478,76 +478,168 @@ text-transform: uppercase;
 color: #000000;
 }
 
-.heading1 {
-  position: absolute;
-width: 730px;
-height: 71px;
-left: 700px;
-top: 206px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 36px;
-line-height: 77px;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
+.buttonbar {
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    padding: 20px 35px;
+    background-color: #98DED9;
+    border: 5px solid #C4C4C4;
+    width: 1380px;
 }
 
-.listinputdata {
+#btnbio {
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+    margin-left: 15px;
+}
+
+#btnbio:hover {
+    color: yellow;
+}
+
+.pp {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 400px;
+    left: 400px;
+}
+
+.txtket {
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    color: black;
+    font-size: 30px;
+    height: 1000px;
+    font-weight: 600;
+}
+
+#nopegawai {
+    margin-left: 135px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#nama {
+    margin-left: 224px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#nik {
+    margin-left: 257px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#tempatlahir {
+    margin-left: 122px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#tanggallahir {
+    margin-left: 115px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#jeniskelamin {
+    margin-left: 110px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#agama {
+    margin-left: 207px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#alamat {
+    margin-left: 206px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#email {
+    margin-left: 216px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#notelp {
+    margin-left: 145px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#tanggalmsk {
+    margin-left: 90px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+
+.btnsv {
   position: absolute;
-  left: 1100px;
-  top: 600px;
-  transform: translate(-50%,-50%);
-  padding: 20px 25px;
-  width: 1000px;
+  background: none;
+  color: white;
+  top: 1050px;
+  left: 1500px;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btnsvs {
+  background-color: #C4C4C4;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
   font-size: 32px;
   font-weight: 600;
-}
-
-.listinputdata input{
-  width: 400px;
-  padding: 12px 20px;
-  margin: 8px 10px;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #C4C4C4;
 }
 
-.listinputdata select{
-  width: 400px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  margin-left: 153px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #C4C4C4;
-}
-
-.listinputdata #namafile {
-  margin-left: 129px;
-}
-
-.listinputdata #tanggalinput {
-  margin-left: 42px;
-}
-/* input[type=submit]:hover {
-  color: white;
+.btnsvs:hover {
   background-color: #79A3B1;
-} */
-
-.submit {
-  padding: 15px 100px;
-  color: white;
-  background-color: #79A3B1;
-  border: none;
-  font-size: 24px;
-  border-radius: 20px;
-}
-
-.submit:hover {
-  background-color: #C4C4C4;
-  color: #352E5B;
 }

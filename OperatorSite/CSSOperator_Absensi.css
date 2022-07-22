@@ -7,7 +7,7 @@ Body {
 }  
 
 .sidenav {
-  height: 180px; 
+  height: 100%; 
   width: 20%; 
   position: fixed; 
   z-index: 1; 
@@ -61,7 +61,6 @@ Body {
   height: 200px;
   top: 0px;
 }
-
 
 .button1 {
   position: absolute;
@@ -275,119 +274,301 @@ Body {
   color: #FFFFFF;
 }
 
-.fitur {
-  position: fixed;
-  top: 350px;
-  left: 350px;
-  padding: 30px 30px;
-  font-size: 24px;
-  color: black;
-}
-
-#btnins1 {
+.Paudpemilik { 
   position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 200px;
-  top: 150px;
+  width: 250px;
+  height: 250px;
+  right: 63%;
+  top: 41%;
+  background: #C4C4C4;
+  border-radius: 30px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
 }
-#btnins2 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 500px;
-  top: 150px;
-  font-family: 'Inter';
+
+.Paudpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.SDpemilik {
+position: absolute;
+width: 250px;
+height: 250px;
+right: 47%;
+top: 41%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
 }
-#btnins3 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 800px;
-  top: 150px;
-  font-family: 'Inter';
+
+.SDpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.SMPpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 31%;
+top: 41%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
   font-size: 26px;
   line-height: 31px;
   text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
 }
 
-/* .buttondatapegawai {
-    position: absolute;
-    top: 550px;
-    left: 400px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
+.SMPpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
 
-.buttonnotifikasi {
-    position: absolute;
-    top: 550px;
-    left: 800px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
+.Mahadpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 15%;
+top: 41%;
 
-.buttonlaporanuang {
-    position: absolute;
-    top: 550px;
-    left: 1200px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  } */
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
 
-.randomtext {
-    position:absolute;
-    top: 200px;
-    left: 600px ;
+.Mahadpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.STDIISPemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 63%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.STDIISpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.AsetLainyapemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 47%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.AsetLainyapemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.LaporanKeuanganpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 31%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.LaporanKeuanganpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.Notifikasipemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 15%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.Notifikasipemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.h1Nama {
+position: absolute;
+width: 732px;
+height: 70px;
+left: 25%;
+top: 270px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.h1Waktu {
+position: absolute;
+width: 333px;
+height: 39px;
+left: 25%;
+top: 250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.buttonbar {
+    position: absolute;
+    top: 220px;
+    left: 360px;
+    padding: 20px 80px;
+    background-color: #98DED9;
+    border: 5px solid #C4C4C4;
+    width: 1290px;
+}
+
+#btnabs {
+    left: 300px;
     text-align: center;
-    color: black;
-    font-size: 50px;
-    
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 32px;
+    color: black;;
+    margin-left: 200px;
+}
 
+#btnabs:hover {
+    color: yellow;
+}
+
+.pp {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 350px;
+    left: 400px;
+}
+
+#pppgw {
+    width: 100px;
+    height: 100px;
+}
+
+.txtket {
+    position: absolute;
+    top: 330px;
+    left: 550px;
+    color: black;
+    font-size: 30px;
+    height: 300px;
+    font-weight: 600;
+    line-break: loose;
+}
+
+#nopgw {
+    margin-left: 163px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 200px;
+    padding: 8px;
+    font-size:  20px;
+}
+#nama {
+    margin-left: 250px;
+    margin-top: 30px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 200px;
+    padding: 8px;
+    font-size:  20px;
+}
+
+.uiabs {
+  position: fixed;
+  top: 500px;
+  left: 900px;
+  color: black;
+  font-weight: 600;
+}
+
+#izc {
+  background-color: yellow;
+  padding: 10px;
+  padding-right: 100px;
+  border: none;
+}
+#alpha {
+  background-color: red;
+  border: none;
+  padding: 10px;
+  padding-right: 100px;
+  margin-left: 150px;
+}
+#msk {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  padding-right: 100px;
+  margin-left: 150px;
 }

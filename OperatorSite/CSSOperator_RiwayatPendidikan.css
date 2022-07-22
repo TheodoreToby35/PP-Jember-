@@ -7,7 +7,7 @@ Body {
 }  
 
 .sidenav {
-  height: 180px; 
+  height: 100%; 
   width: 20%; 
   position: fixed; 
   z-index: 1; 
@@ -61,7 +61,6 @@ Body {
   height: 200px;
   top: 0px;
 }
-
 
 .button1 {
   position: absolute;
@@ -275,119 +274,337 @@ Body {
   color: #FFFFFF;
 }
 
-.fitur {
-  position: fixed;
-  top: 350px;
-  left: 350px;
-  padding: 30px 30px;
-  font-size: 24px;
-  color: black;
+.Paudpemilik { 
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  right: 63%;
+  top: 41%;
+  background: #C4C4C4;
+  border-radius: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
 }
 
-#btnins1 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 200px;
-  top: 150px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 26px;
-  line-height: 31px;
-  text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
-}
-#btnins2 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 500px;
-  top: 150px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 26px;
-  line-height: 31px;
-  text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
-}
-#btnins3 {
-  position: absolute;
-  width: 170px;
-  height: 170px;
-  left: 800px;
-  top: 150px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 26px;
-  line-height: 31px;
-  text-transform: uppercase;
-  background-color: #C4C4C4;
-  border-radius: 20px;
+.Paudpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
 }
 
-/* .buttondatapegawai {
-    position: absolute;
-    top: 550px;
+.SDpemilik {
+position: absolute;
+width: 250px;
+height: 250px;
+right: 47%;
+top: 41%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.SDpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.SMPpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 31%;
+top: 41%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.SMPpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.Mahadpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 15%;
+top: 41%;
+
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.Mahadpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.STDIISPemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 63%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.STDIISpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.AsetLainyapemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 47%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.AsetLainyapemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.LaporanKeuanganpemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 31%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.LaporanKeuanganpemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.Notifikasipemilik{
+position: absolute;
+width: 250px;
+height: 250px;
+right: 15%;
+top: 70%;
+background: #C4C4C4;
+border-radius: 30px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.Notifikasipemilik:hover {
+background-color: #79A3B1;
+color: #FFFFFF;
+}
+
+.h1Nama {
+position: absolute;
+width: 732px;
+height: 70px;
+left: 25%;
+top: 270px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.h1Waktu {
+position: absolute;
+width: 333px;
+height: 39px;
+left: 25%;
+top: 250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.buttonbar {
+    position: relative;
+    top: 120px;
+    left: 350px;
+    padding: 20px 80px;
+    background-color: #98DED9;
+    border: 5px solid #C4C4C4;
+}
+
+#btnbio {
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+}
+
+#btnbio:hover {
+    color: yellow;
+}
+
+.pp {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 400px;
     left: 400px;
-    border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
+}
 
-.buttonnotifikasi {
+.txtket {
     position: absolute;
-    top: 550px;
+    top: 350px;
     left: 800px;
+    color: black;
+    font-size: 30px;
+    height: 1000px;
+    font-weight: 600;
+}
+
+#asalsekolah {
+    margin-left: 124px;
+    background-color: #C4C4C4;
     border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  }
-
-.buttonlaporanuang {
-    position: absolute;
-    top: 550px;
-    left: 1200px;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#jurusan {
+    margin-left: 192px;
+    margin-top: 50px;
+    background-color: #C4C4C4;
     border: none;
-    padding: 60px 32px;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-    cursor: pointer;
-    background-color: grey;
-    border-radius: 20px;
-    font-weight: 800;
-  } */
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#npsn {
+    margin-left: 223px;
+    margin-top: 50px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#alamat {
+    margin-left: 206px;
+    margin-top: 50px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 500px;
+    padding: 8px;
+    font-size:  20px;
+}
+#tahun {
+    margin-left: 219px;
+    margin-right: 40px;
+    margin-top: 50px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 130px;
+    padding: 8px;
+    font-size:  20px;
+}
+#sampai {
+    margin-left: 60px;
+    margin-top: 50px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 130px;
+    padding: 8px;
+    font-size:  20px;
+}
+#ftijasah {
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-top: 50px;
+    background-color: #C4C4C4;
+    border: none;
+    width: 100px;
+    height: 150px;
+    padding: 8px;
+    font-size:  20px;
+}
 
-.randomtext {
-    position:absolute;
-    top: 200px;
-    left: 600px ;
-    text-align: center;
-    color: black;
-    font-size: 50px;
-    
+.btnsv {
+  position: absolute;
+  background: none;
+  color: white;
+  top: 950px;
+  left: 1500px;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
 
+.btnsvs {
+  background-color: #C4C4C4;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  font-size: 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.btnsvs:hover {
+  background-color: #79A3B1;
 }
