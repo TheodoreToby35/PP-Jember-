@@ -503,7 +503,7 @@ color: #000000;
 table {
     position: relative;
     width: 100%;
-    top: 250px;
+    top: 300px;
     border: 5px solid #C4C4C4;
     border-collapse: collapse;
     color: #000000;
@@ -518,7 +518,7 @@ th, td {
   width: 30px;
 }
 
-#nopegawai{
+#ketfile{
     width: 300px;
 }
 
@@ -536,7 +536,16 @@ th {
     background-color: #C2DFEB; ;
 }
 
-a {
-  color: #000000;
-  font-style: none;
+#inputlaporan {
+  position: fixed;
+  top: 350px;
+  left: 1400px;
+  color: white;
+  padding: 5px;
+  width: 400px;
+  font-size: 30px;
+  background-color: #C4C4C4;
+  border: none;
+  border-radius: 40px;
+  letter-spacing: 5px;
 }
