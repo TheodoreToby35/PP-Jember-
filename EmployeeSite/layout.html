@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+    
+  font-family: Arial, Helvetica, sans-serif, 'Inter';
+}
+
+/* Style the header */
+header {
+  background-color: #79A3B1;
+  padding: 30px;
+  text-align: right;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 23%;
+  height: 633px; /* only for demonstration, should be removed */
+  background: #D0E8F2;
+  padding: 5px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+aside {
+  list-style-type: none;
+  padding: 0px;
+}
+
+/* Style the list inside the menu 
+nav.ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  
+}*/
+
+article {
+  float: left;
+  padding: 20px;
+  width: 77%;
+  background-color: #f1f1f1;
+  height: 533px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #79A3B1;
+  padding:20px;
+  text-align: center;
+  color: white;
+}
+.button1 {
+  width: 265px;
+  height: 45px;
+  left: 25px;
+  top: 200px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+
+.button2 {
+  width: 265px;
+  height: 45px;
+  left: 25px;
+  top: 260px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button3 {
+  width: 265px;
+  height: 45px;
+  left: 25px;
+  top: 320px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button4 {
+  width: 265px;
+  height: 45px;
+  left: 25px;
+  top: 380px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button5 {
+  width: 265px;
+  height: 45px;
+  left: 25px;
+  top: 440px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+.button6 {
+ 
+  width: 265px;
+  height: 45px;
+  left: 25px;
+  top: 500px;
+  bottom: 200px;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: #79A3B1;
+  border-radius: 20px;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media screen and (max-width: 620px) {
+  nav, .ul, article, a.button1, a.button2, a.button3, a.button4, a.button5, a.button6{
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<section>
+	
+  <nav>
+    <ul class="list-group">
+      <a href="D:\IMAM SYAFII\CSS_PROYEK_PESANTREN\Pegawai_DataDiri.html" class="button1">BIODATA</a>
+      <a href="#" class="button2">ABSENSI</a>
+      <a href="#" class="button3">POINT</a>
+      <a href="#" class="button4">GAJI</a>
+      <a href="#" class="button5">BERKAS</a>
+      <a href="#" class="button6">REKAN KERJA</a>
+    </ul>
+  </nav>
+
+  <header> halo </header>
+  
+  <article> 
+  <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+
+</body>
+</html>
